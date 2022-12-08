@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: okta-awscli
+Version: 0.5.4
+Summary: Provides a wrapper for Okta authentication to awscli
+Home-page: https://github.com/okta-awscli/okta-awscli
+Author: James Hale
+Author-email: james@hale.dev
+License: Apache License 2.0
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: click
+Requires-Dist: bs4
+Requires-Dist: boto3
+Requires-Dist: ConfigParser
+Requires-Dist: validators
+Provides-Extra: u2f
+Requires-Dist: python-u2flib-host ; extra == 'u2f'
+
+UNKNOWN
+
